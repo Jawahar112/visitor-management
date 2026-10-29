@@ -1,0 +1,51 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Visitor Management (Web - Chrome)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": [
+        "--web-port",
+        "3000",
+      ]
+    },
+    {
+      "name": "Visitor Management (Web - Chrome Profile)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "deviceId": "chrome"
+    },
+    {
+      "name": "Visitor Management (Web - Chrome Release)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "deviceId": "chrome"
+    },
+    {
+      "name": "Visitor Management (Android) Dev",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "F6PVYSTCYHZDI79T"
+    },
+    {
+      "name": "Visitor Management (Android) Release",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "F6PVYSTCYHZDI79T",
+      "flutterMode": "release",
+    },
+        {
+      "name": "Visitor Management (Android) profile",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "F6PVYSTCYHZDI79T",
+      "flutterMode": "profile",
+    },
+    
+    
+  ]
+}
